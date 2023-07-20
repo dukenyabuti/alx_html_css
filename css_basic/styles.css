@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #828080;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+
+  .logo {
+    font-size: 2em;
+    color: #020000;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 5;
+    overflow-y: auto;
+    background-color: #828080;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #585858;
+  }
+  
+  th {
+    background-color: #5b4444;
+  }
